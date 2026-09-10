@@ -1,0 +1,33 @@
+# Environment and credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+# Dependencies and generated output
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+*.db
+*.sqlite*
+*.log
+.runtime/
+/tmp/
+.DS_Store
+.idea/
+.vscode/
+# Existing local coursework and personal resume artifacts
+/*.pdf
+/*.doc
+/*.docx
+/*.xlsx
+/build_resume.py
+/render_resume_preview.py
+/resume_pdf_review/
+/resume_render/
+/resume_source_extract/
+# Local repository transfer packages
+/JD_select.bundle

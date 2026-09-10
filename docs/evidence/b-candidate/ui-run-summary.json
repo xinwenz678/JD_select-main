@@ -1,0 +1,26 @@
+{
+  "scope": "A updated local folder, B candidate review; no release approval",
+  "run_at": "2026-09-10T09:26:10.607135+00:00",
+  "partial": true,
+  "python": "3.13.7",
+  "results": [
+    {
+      "check": "health-docs-openapi",
+      "exit_code": 0
+    },
+    {
+      "check": "browser",
+      "exit_code": 0,
+      "seconds": 21.69,
+      "log": ".runtime/b-candidate/browser.log"
+    },
+    {
+      "check": "existing-real-smoke",
+      "exit_code": 0,
+      "seconds": 3.9,
+      "log": ".runtime/b-candidate/existing-real-smoke.log"
+    }
+  ],
+  "status": "passed",
+  "candidate_git_commit": null
+}

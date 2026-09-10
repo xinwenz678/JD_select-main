@@ -1,0 +1,17 @@
+# Validated target: Windows x64, CPython 3.13.
+# Direct requirements remain the source of intent; this adds transitive pins.
+-r requirements.txt
+annotated-types==0.8.0
+anyio==4.15.1
+click==8.5.0
+colorama==0.4.6
+greenlet==3.5.5
+h11==0.16.0
+idna==3.19
+pydantic==2.13.5
+pydantic_core==2.46.5
+pypdf==6.18.0
+python-dotenv==1.2.3
+starlette==0.46.2
+typing-inspection==0.4.4
+typing_extensions==4.16.0

@@ -1,0 +1,78 @@
+[
+  {
+    "id": "review_tests.test_b_candidate.test_confirmed_set_saved_with_honest_evidence[skills0-matched0-missing0]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_confirmed_set_saved_with_honest_evidence[skills1-matched1-missing1]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_confirmed_set_saved_with_honest_evidence[skills2-matched2-missing2]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_confirmed_aliases_have_same_score",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_punctuation_delimited_aliases_are_extracted_as_canonical_skills",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_confirmed_name_is_returned_and_persisted",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_oversized_match_input_is_validation_error_without_save[long-resume]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_oversized_match_input_is_validation_error_without_save[long-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_oversized_match_input_is_validation_error_without_save[long-title]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_contract_no_key_determinism_and_no_persistence",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_input_boundaries[empty-experience]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_input_boundaries[blank-experience]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_input_boundaries[empty-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_input_boundaries[long-experience]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_input_boundaries[long-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_uses_configured_compatible_model",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_b_candidate.test_star_model_timeout_falls_back_without_error",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_candidate_requirements.test_unknown_skill_jd_is_readable_validation_error",
+    "status": "passed"
+  },
+  {
+    "id": "review_tests.test_candidate_requirements.test_star_is_registered_before_level_two_release",
+    "status": "passed"
+  }
+]

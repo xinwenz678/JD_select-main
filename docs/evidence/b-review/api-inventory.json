@@ -1,0 +1,15 @@
+{
+  "health": "database ok",
+  "docs": 200,
+  "version": "0.1.0",
+  "paths": [
+    "/api/analysis-records",
+    "/api/analysis-records/{record_id}",
+    "/api/health",
+    "/api/jobs/parse",
+    "/api/matches",
+    "/api/matches/{record_id}",
+    "/api/resumes/diagnose",
+    "/api/resumes/parse"
+  ]
+}

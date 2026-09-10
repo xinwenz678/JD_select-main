@@ -1,0 +1,181 @@
+{
+  "status": "passed",
+  "scope": "B candidate review, isolated real backend; algorithm correctness checked separately",
+  "browser": "152.0.4191.66",
+  "checks": [
+    {
+      "id": "UI01",
+      "title": "空历史可恢复",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TC01",
+      "title": "完整匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "d12e9db8-4bcc-4277-b5e4-a7039c58eac2",
+        "score": 91,
+        "matched": [
+          "Excel",
+          "FastAPI",
+          "Python",
+          "SQL"
+        ],
+        "missing": [],
+        "evidenceCount": 11
+      }
+    },
+    {
+      "id": "UI-TC02",
+      "title": "部分匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "96598f6c-c57f-4b4b-b408-fc9ffeb2a1db",
+        "score": 40,
+        "matched": [
+          "Excel",
+          "Python"
+        ],
+        "missing": [
+          "FastAPI",
+          "SQL"
+        ],
+        "evidenceCount": 4
+      }
+    },
+    {
+      "id": "UI-TC03",
+      "title": "低匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "cf9f9853-6488-4439-8a73-22a1cffdd1b2",
+        "score": 1,
+        "matched": [],
+        "missing": [
+          "FastAPI",
+          "Python",
+          "SQL"
+        ],
+        "evidenceCount": 4
+      }
+    },
+    {
+      "id": "UI-TC05",
+      "title": "同义词实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "8e7e1cb8-5cbb-4edc-b7b9-09b3557b34da",
+        "score": 80,
+        "matched": [
+          "JavaScript",
+          "PyTorch"
+        ],
+        "missing": [],
+        "evidenceCount": 2
+      }
+    },
+    {
+      "id": "UI02",
+      "title": "空输入拦截与字段焦点",
+      "status": "passed"
+    },
+    {
+      "id": "UI03",
+      "title": "同步双击只产生一个 POST 和一条记录",
+      "status": "passed"
+    },
+    {
+      "id": "UI04",
+      "title": "平台统一 503 错误可读、草稿保留、真实重试成功",
+      "status": "passed"
+    },
+    {
+      "id": "UI05",
+      "title": "修改原文后旧解析结果失效",
+      "status": "passed"
+    },
+    {
+      "id": "UI06",
+      "title": "详情 404 不显示旧分数且能恢复",
+      "status": "passed"
+    },
+    {
+      "id": "UI07",
+      "title": "网络错误可读并解除在途锁",
+      "status": "passed"
+    },
+    {
+      "id": "UI08",
+      "title": "320/390/720/1440 窗口、长岗位名称可读",
+      "status": "passed"
+    },
+    {
+      "id": "A13",
+      "title": "删除已确认 Python 后匹配不再命中 Python",
+      "status": "passed"
+    },
+    {
+      "id": "A15",
+      "title": "结果 URL 含服务端 UUID，刷新保留同一结果",
+      "status": "passed"
+    },
+    {
+      "id": "STAR",
+      "title": "真实规则 STAR 不覆盖原文，编辑后不残留旧建议",
+      "status": "passed",
+      "detail": {
+        "source": "rule-fallback",
+        "original": "参与课程报名系统，负责接口测试。",
+        "keywords": [
+          "Excel",
+          "FastAPI",
+          "Python",
+          "SQL"
+        ]
+      }
+    },
+    {
+      "id": "RECOVERY",
+      "title": "历史与详情错误都能实际重新请求",
+      "status": "passed"
+    },
+    {
+      "id": "KEYBOARD",
+      "title": "键盘入口与表单操作可用",
+      "status": "passed"
+    }
+  ],
+  "pageErrors": [],
+  "consoleErrors": [
+    {
+      "id": "UI04",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "path": "/api/matches",
+      "expected": true
+    },
+    {
+      "id": "UI06",
+      "message": "Failed to load resource: the server responded with a status of 404 (Not Found)",
+      "path": "/api/matches/4b502505-acf3-44a8-a8bb-fef383338c41",
+      "expected": true
+    },
+    {
+      "id": "UI07",
+      "message": "Failed to load resource: net::ERR_FAILED",
+      "path": "/api/matches",
+      "expected": true
+    },
+    {
+      "id": "RECOVERY",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "path": "/api/matches",
+      "expected": true
+    },
+    {
+      "id": "RECOVERY",
+      "message": "Failed to load resource: the server responded with a status of 503 (Service Unavailable)",
+      "path": "/api/matches/367b96c0-d999-4498-857a-63025b3678fc",
+      "expected": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "review_tests.test_candidate_requirements.test_unknown_skill_jd_is_readable_validation_error",
+    "status": "failed"
+  },
+  {
+    "id": "review_tests.test_candidate_requirements.test_star_is_registered_before_level_two_release",
+    "status": "failed"
+  }
+]

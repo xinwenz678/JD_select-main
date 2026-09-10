@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="5000" height="1000" viewBox="0 0 5000 1000"><title>AI简历诊断与岗位匹配系统用例图</title><rect width="5000" height="1000" fill="white"/>
+<text x='2500' y='56' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='44' fill='#33383D'>AI简历诊断与岗位匹配系统用例图</text>
+<rect x='52' y='116' width='4896' height='216' fill='white' stroke='#ADB3BA' stroke-width='2'/>
+<rect x='52' y='416' width='4896' height='216' fill='white' stroke='#ADB3BA' stroke-width='2'/>
+<rect x='52' y='716' width='4896' height='216' fill='white' stroke='#ADB3BA' stroke-width='2'/>
+<polyline points='556,284 556,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='232,368 880,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='232,368 232,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='556,368 556,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='880,368 880,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1366,284 1366,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1204,368 1528,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1204,368 1204,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1528,368 1528,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2176,284 2176,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1852,368 2500,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1852,368 1852,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2176,368 2176,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2500,368 2500,402 2600,402 2600,470 2500,470 2500,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3148,284 3148,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2824,368 3472,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2824,368 2824,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3148,368 3148,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3472,368 3472,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3958,284 3958,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3796,368 4120,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3796,368 3796,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4120,368 4120,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4606,284 4606,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4444,368 4768,368' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4444,368 4444,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4768,368 4768,486' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='232,590 232,671 394,671' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='556,590 556,671 394,671' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='394,671 394,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='880,590 880,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1204,590 1204,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1528,590 1528,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='1852,590 1852,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2176,590 2176,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2500,590 2500,702 2600,702 2600,770 2500,770 2500,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='2824,590 2824,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3148,590 3148,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3472,590 3472,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='3796,590 3796,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4120,590 4120,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4444,590 4444,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<polyline points='4768,590 4768,786' fill='none' stroke='#ADB3BA' stroke-width='1.8'/>
+<text x='2500' y='146' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>系统功能</text>
+<text x='2500' y='446' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>用户操作</text>
+<text x='2500' y='746' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>系统响应</text>
+<rect x='416' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='556' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>简历管理</text>
+<rect x='1226' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1366' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>JD管理</text>
+<rect x='2036' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2176' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>智能匹配分析</text>
+<rect x='3008' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3148' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>Gap分析</text>
+<rect x='3818' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3958' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>简历优化</text>
+<rect x='4466' y='180' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4606' y='232' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>结果与历史管理</text>
+<rect x='92' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='232' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>上传PDF简历</text>
+<rect x='416' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='556' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>粘贴简历文本</text>
+<rect x='740' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='880' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看解析结果</text>
+<rect x='1064' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1204' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>输入JD</text>
+<rect x='1388' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1528' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>管理JD</text>
+<rect x='1712' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1852' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>发起岗位匹配</text>
+<rect x='2036' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2176' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看匹配分数</text>
+<rect x='2360' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2500' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看技能匹配</text>
+<rect x='2684' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2824' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看已匹配能力</text>
+<rect x='3008' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3148' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看表达Gap</text>
+<rect x='3332' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3472' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看技能Gap</text>
+<rect x='3656' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3796' y='521.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>获取定向</text>
+<text x='3796' y='554.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>优化建议</text>
+<rect x='3980' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4120' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>AI优化简历</text>
+<rect x='4304' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4444' y='538' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>查看历史记录</text>
+<rect x='4628' y='486' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4768' y='521.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>重新进行</text>
+<text x='4768' y='554.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='29' fill='#33383D'>匹配分析</text>
+<rect x='254' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='394' y='838' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>解析简历内容</text>
+<rect x='740' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='880' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>结构化展示</text>
+<text x='880' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>简历信息</text>
+<rect x='1064' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1204' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>提取岗位</text>
+<text x='1204' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>核心要求</text>
+<rect x='1388' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1528' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>保存并展示</text>
+<text x='1528' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>JD列表</text>
+<rect x='1712' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='1852' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>执行简历与</text>
+<text x='1852' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>JD匹配</text>
+<rect x='2036' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2176' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>展示总体</text>
+<text x='2176' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>匹配程度</text>
+<rect x='2360' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2500' y='805' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>展示岗位要求与</text>
+<text x='2500' y='838' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>简历证据</text>
+<text x='2500' y='871' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>对应关系</text>
+<rect x='2684' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='2824' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>展示已有充分</text>
+<text x='2824' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>证据的能力</text>
+<rect x='3008' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3148' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>识别已有能力但</text>
+<text x='3148' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>表达不足的内容</text>
+<rect x='3332' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3472' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>识别缺少真实</text>
+<text x='3472' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>证据的技能或经历</text>
+<rect x='3656' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='3796' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>生成JD定向</text>
+<text x='3796' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>修改建议</text>
+<rect x='3980' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4120' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>生成STAR式</text>
+<text x='4120' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>优化内容</text>
+<rect x='4304' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4444' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>展示历史</text>
+<text x='4444' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>匹配结果</text>
+<rect x='4628' y='786' width='280' height='104' fill='white' stroke='#71CDB0' stroke-width='2'/>
+<text x='4768' y='821.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>对修改后的简历</text>
+<text x='4768' y='854.5' text-anchor='middle' dominant-baseline='central' font-family='Microsoft YaHei, Noto Sans CJK SC, sans-serif' font-size='28' fill='#33383D'>重新分析</text>
+</svg>

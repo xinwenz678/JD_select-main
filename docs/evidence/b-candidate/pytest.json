@@ -1,0 +1,366 @@
+[
+  {
+    "id": "tests.test_a13_a17.test_confirmed_skills_replace_raw_skill_extraction",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_a13_a17.test_star_rule_fallback_is_safe_and_deterministic",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC01-full]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC02-partial]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC03-low]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC04-empty-resume]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC04-whitespace-resume]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC04-empty-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC04-whitespace-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC05-canonical]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC05-aliases]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_five_scenarios_persist_and_repeat[TC05-duplicate-aliases]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_synonyms_have_equal_scores",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_match_commit_failure_rolls_back_and_retry_recovers",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_unexpected_failure_after_flush_does_not_persist",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_b_acceptance.test_recent_ten_and_restart_preserve_real_matches",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_match_evidence.test_match_returns_and_persists_line_addressable_evidence",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_health_and_empty_history",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_create_detail_update_delete",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_file_persistence_across_app_restart",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_history_order_pagination_and_no_raw_text",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_pagination[limit=0]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_pagination[limit=101]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_pagination[offset=-1]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_pagination[limit=abc]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_bad_or_missing_id[not-a-uuid-422]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_bad_or_missing_id[c451b454-a924-4297-974b-69a5f514c75e-404]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_input_not_saved[empty-resume]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_input_not_saved[blank-jd]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_input_not_saved[oversize-resume]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_or_inconsistent_score[-1]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_or_inconsistent_score[101]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_or_inconsistent_score[71]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_or_inconsistent_score[True]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_or_inconsistent_score[72]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_invalid_json_and_immutable_snapshot",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_http_errors",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_cors_preflight_and_errors",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_unexpected_failure_is_safe_and_has_cors",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_database_failure_is_503",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_service_rollback_and_next_request",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_stable_sqlite_path_when_cwd_changes",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_platform_records.test_tie_break_order",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_upload_pdf_extracts_and_parses",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_upload_pdf_rejects_wrong_content_type",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_upload_pdf_rejects_invalid_pdf",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_parse_returns_contract",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_sample_files_parse[resume_basic.txt]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_sample_files_parse[resume_en.txt]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_sample_files_parse[resume_missing_sections.txt]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_blank_text_rejected[]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_blank_text_rejected[   ]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_blank_text_rejected[\\n\\n\\t]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_blank_text_rejected[\\u3000\\u3000]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_too_long_text_rejected",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_missing_text_field_rejected",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_health",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_returns_contract",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_weak_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_blank_text_rejected[]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_blank_text_rejected[   ]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_blank_text_rejected[\\n\\n\\t]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_blank_text_rejected[\\u3000\\u3000]",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_api.test_diagnose_missing_text_field_rejected",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_resume_basic_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_resume_en_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_resume_missing_sections_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_resume_weak_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_quantified_percent_and_count",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_quantified_english_percent",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_action_verb_missing",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_action_verb_english_ok_and_missing",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_skip_time_and_title_lines",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_education_missing_year_suggests",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_education_has_year_no_suggest",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_skills_few_and_none",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_missing_experience_suggests",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_preamble_only_gives_structure_suggestions",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_diagnose.test_line_numbers_align_with_blank_lines",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_full_chinese_resume",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_english_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_missing_sections_sample",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_decorated_heading_and_longest_match",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_short_heading_word_does_not_split_long_body",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_english_keywords_and_line_numbers",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_skill_dedup_and_paren_and_label",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_skill_noise_filtered",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_personal_info_missing_warns",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_name_with_label_prefix",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_no_contact_but_name_ok",
+    "status": "passed"
+  },
+  {
+    "id": "tests.test_resume_parser.test_missing_education_and_skills_warns",
+    "status": "passed"
+  }
+]

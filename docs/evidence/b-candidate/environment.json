@@ -1,0 +1,12 @@
+{
+  "system": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.7",
+  "node": "v24.19.0",
+  "git": "git version 2.50.1.windows.1",
+  "ports_after_official_smoke": {
+    "8000": "available",
+    "5173": "available"
+  },
+  "git_status": "not a repository",
+  "remote_probe": "historical repository HTTPS connection timed out; no remote hash verified"
+}

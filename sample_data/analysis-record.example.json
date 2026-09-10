@@ -1,0 +1,31 @@
+{
+  "resume_text": "测试简历：Python、SQL 项目经验",
+  "jd_text": "测试岗位：Python、SQL、Tableau",
+  "job_title": "数据分析实习生",
+  "result": {
+    "score": 72,
+    "score_breakdown": {
+      "required_skills": 55,
+      "preferred_skills": 12,
+      "evidence_quality": 5
+    },
+    "matched_skills": [
+      "Python",
+      "SQL"
+    ],
+    "missing_skills": [
+      "Tableau"
+    ],
+    "resume_sections": {
+      "skills": [
+        "Python",
+        "SQL"
+      ]
+    },
+    "job_skills": [],
+    "suggestions": [
+      "补充量化成果"
+    ],
+    "algorithm_version": "rule-v1"
+  }
+}

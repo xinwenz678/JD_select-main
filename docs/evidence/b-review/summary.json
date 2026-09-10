@@ -1,0 +1,72 @@
+{
+  "scope": "local folder, supplementary B review; no release approval",
+  "partial": false,
+  "python": "3.13.7",
+  "results": [
+    {
+      "check": "lock",
+      "exit_code": 0,
+      "seconds": 0.38,
+      "log": ".runtime/b-review/lock.log"
+    },
+    {
+      "check": "pip-check",
+      "exit_code": 0,
+      "seconds": 1.04,
+      "log": ".runtime/b-review/pip-check.log"
+    },
+    {
+      "check": "pytest",
+      "exit_code": 1,
+      "seconds": 8.62,
+      "log": ".runtime/b-review/pytest.log"
+    },
+    {
+      "check": "candidate-tests",
+      "exit_code": 1,
+      "seconds": 2.03,
+      "log": ".runtime/b-review/candidate-tests.log"
+    },
+    {
+      "check": "rule-boundary",
+      "exit_code": 0,
+      "seconds": 0.25,
+      "log": ".runtime/b-review/rule-boundary.log"
+    },
+    {
+      "check": "typecheck",
+      "exit_code": 0,
+      "seconds": 1.86,
+      "log": ".runtime/b-review/typecheck.log"
+    },
+    {
+      "check": "build",
+      "exit_code": 0,
+      "seconds": 1.9,
+      "log": ".runtime/b-review/build.log"
+    },
+    {
+      "check": "A16-component-test-command",
+      "exit_code": 2,
+      "reason": "npm executable and test command required; component infrastructure owned by A"
+    },
+    {
+      "check": "health-docs-openapi",
+      "exit_code": 0
+    },
+    {
+      "check": "browser",
+      "exit_code": 1,
+      "seconds": 16.59,
+      "log": ".runtime/b-review/browser.log"
+    },
+    {
+      "check": "existing-real-smoke",
+      "exit_code": 0,
+      "seconds": 3.47,
+      "log": ".runtime/b-review/existing-real-smoke.log"
+    }
+  ],
+  "status": "failed",
+  "candidate_git_commit": null
+}

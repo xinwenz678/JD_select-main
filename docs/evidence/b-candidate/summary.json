@@ -1,0 +1,74 @@
+{
+  "scope": "A updated local folder, B candidate review; no release approval",
+  "run_at": "2026-09-10T10:03:29.655608+00:00",
+  "partial": false,
+  "python": "3.13.7",
+  "results": [
+    {
+      "check": "lock",
+      "exit_code": 0,
+      "seconds": 0.3,
+      "log": ".runtime/b-candidate/lock.log"
+    },
+    {
+      "check": "pip-check",
+      "exit_code": 0,
+      "seconds": 0.9,
+      "log": ".runtime/b-candidate/pip-check.log"
+    },
+    {
+      "check": "pytest",
+      "exit_code": 0,
+      "seconds": 6.01,
+      "log": ".runtime/b-candidate/pytest.log"
+    },
+    {
+      "check": "candidate-tests",
+      "exit_code": 0,
+      "seconds": 3.6,
+      "log": ".runtime/b-candidate/candidate-tests.log"
+    },
+    {
+      "check": "rule-boundary",
+      "exit_code": 0,
+      "seconds": 0.34,
+      "log": ".runtime/b-candidate/rule-boundary.log"
+    },
+    {
+      "check": "typecheck",
+      "exit_code": 0,
+      "seconds": 2.22,
+      "log": ".runtime/b-candidate/typecheck.log"
+    },
+    {
+      "check": "build",
+      "exit_code": 0,
+      "seconds": 1.84,
+      "log": ".runtime/b-candidate/build.log"
+    },
+    {
+      "check": "A16-component-tests",
+      "exit_code": 0,
+      "seconds": 3.21,
+      "log": ".runtime/b-candidate/A16-component-tests.log"
+    },
+    {
+      "check": "health-docs-openapi",
+      "exit_code": 0
+    },
+    {
+      "check": "browser",
+      "exit_code": 0,
+      "seconds": 20.36,
+      "log": ".runtime/b-candidate/browser.log"
+    },
+    {
+      "check": "existing-real-smoke",
+      "exit_code": 0,
+      "seconds": 3.6,
+      "log": ".runtime/b-candidate/existing-real-smoke.log"
+    }
+  ],
+  "status": "passed",
+  "candidate_git_commit": null
+}

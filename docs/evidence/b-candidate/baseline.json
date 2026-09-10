@@ -1,0 +1,314 @@
+{
+  "capturedAt": "2026-09-10T16:41:51.2137488+08:00",
+  "scope": "A updated local folder; Git hash unavailable",
+  "files": [
+    {
+      "path": "scripts/check-env.ps1",
+      "sha256": "2a042e855cecd178ae469f87ba76c16825dcf1233c4b2a2528ef96597244cc21"
+    },
+    {
+      "path": "scripts/check-lock.py",
+      "sha256": "4242236c5e4f48b4b9f4d674fdc1d33833a8e44deb7779e85bd6bfaa96b996c5"
+    },
+    {
+      "path": "scripts/common.ps1",
+      "sha256": "781cfc88464192d0449a097d31da4961568df423d2893e2b30cba58f14a9317f"
+    },
+    {
+      "path": "scripts/b-review.py",
+      "sha256": "cf0d8134526e57d390980d5128a50b2f8c4a4d8634debd1876ea8d5149ab7fcd"
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "sha256": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd"
+    },
+    {
+      "path": "backend/app/main.py",
+      "sha256": "83c57f270b26665b35ade91003cb25e451544ff9bfc97b7dcbac9b19077af5bb"
+    },
+    {
+      "path": "scripts/verify.ps1",
+      "sha256": "15b86651111119fb36a23f00b09a8965100d102388aba8576f75defd7ea6e261"
+    },
+    {
+      "path": "scripts/verify-delivery.ps1",
+      "sha256": "b898b806b319146caf1a28f69dc97e7e8d662408fb385a3b9d898aa0063af254"
+    },
+    {
+      "path": "scripts/start.ps1",
+      "sha256": "e91540afd6314c26017737591fb6bf2b6cf7861a0a066615e79b3c1f5bf2733c"
+    },
+    {
+      "path": "scripts/setup.ps1",
+      "sha256": "579648f144a5e8dd2a684c1e98aa840e89ee5703f5df02c5580d4186768887c7"
+    },
+    {
+      "path": "scripts/run-dev.py",
+      "sha256": "c336056d66d19f73e11a27954560671b597ebc9f557bd96ec1ec597fb24ae7c8"
+    },
+    {
+      "path": "backend/app/data/synonyms.json",
+      "sha256": "8d86dde64a078d60b48f2f93447de54bb701b73c867bd5b73d188e8c12770a85"
+    },
+    {
+      "path": "backend/app/data/skill_dictionary.json",
+      "sha256": "fa7234608b3ddd50e71951efc2752885ad22d7f90900d4c989393977612d0752"
+    },
+    {
+      "path": "backend/app/data/scoring_rules.json",
+      "sha256": "dd19e9bc1f3998010671083f8ff8e83ab9e4e6c0bf59c629b736276fc5393d99"
+    },
+    {
+      "path": "backend/app/data/jd_signal_words.json",
+      "sha256": "daef3b3d0444daac06fdbd3a89e5b3fc28349b03c90402b734cae12d2be3e5c1"
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "sha256": "8865bd709d7599eb4f349ca08f6f4b37938da54a46a58aeafc28f6a689d4f92f"
+    },
+    {
+      "path": "backend/app/core/errors.py",
+      "sha256": "a624e542e84513b5deceb2eb2dd4a5ce7fd5f63dd8570ddc8fab41890005e045"
+    },
+    {
+      "path": "backend/app/core/database.py",
+      "sha256": "13a3d7e86361bfde8afddd26942cd3dcb529a1169a75a1c1c0ee9976bd019bd9"
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "sha256": "a1ccc19ee5ad3bb859ba8045bce49f28462c5bcedcc44c5e54469986942f231a"
+    },
+    {
+      "path": "backend/app/services/analysis_records.py",
+      "sha256": "6d6ad2091fb17782fc4265712593c232dd6aecb57203074792077a3f71fb4f8c"
+    },
+    {
+      "path": "backend/app/services/analysis_store.py",
+      "sha256": "b881fc3bc6190d68ec6b7aaa564d201a20901151238e90fa770e4c67c6efcb0d"
+    },
+    {
+      "path": "backend/app/schemas/__init__.py",
+      "sha256": "fa2da211fed0423b70ee7b3237a63dfc0f693900edf91f6e188f1f7cb28c140e"
+    },
+    {
+      "path": "backend/app/schemas/suggestion.py",
+      "sha256": "ebe420f31271d788402ba4ffb6b103b8c20734c9e806c0a741cb52d215567b5a"
+    },
+    {
+      "path": "backend/app/schemas/resume.py",
+      "sha256": "aded2b6e40257650609d1296dd00d8d73ba0a6bbf5d3f1d74aaa9b0ddfa831a3"
+    },
+    {
+      "path": "backend/app/schemas/match.py",
+      "sha256": "20443b59289f5564d61879ee59a35fd79a2f9bf695a1362dd5a7c57830fa768a"
+    },
+    {
+      "path": "backend/app/schemas/job.py",
+      "sha256": "8095a4072f9e11d1aae4e56fab9e402488a9ea44f7e3bb47e852fb27f93eb812"
+    },
+    {
+      "path": "backend/app/schemas/analysis_record.py",
+      "sha256": "a767ba78fc1d2e8f0bece4f9f48b26bbf265c8f7837d21feaa6158832b66581a"
+    },
+    {
+      "path": "backend/tests/test_match_evidence.py",
+      "sha256": "302c58f4ef89083a1c1fc1de7b843a05c3db78a3db5df6d14bdad8a88eaefcb4"
+    },
+    {
+      "path": "backend/tests/test_b_acceptance.py",
+      "sha256": "9ade09d9e38338e6e8b766881b4e1747235e10fcc1aafe829df8c5e91f8b3654"
+    },
+    {
+      "path": "backend/tests/test_a13_a17.py",
+      "sha256": "9e48689c9b2e3c0884061958ff8310ee70702f881e4d0d389018e42474bd52e0"
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "sha256": "d83ac996b8b6939118fdfb0a074d4ae8cef15afe6a6f52197d5a2bed448effb2"
+    },
+    {
+      "path": "backend/tests/test_resume_api.py",
+      "sha256": "b9e379b8947254fd2250b34955ed7bf276a5598f9127105dcb81d9b1b2ed9238"
+    },
+    {
+      "path": "backend/tests/test_platform_records.py",
+      "sha256": "f7ce70b4cd4e9c685a5165a881b29bf6b3e2e617a8f42bfbee93585688d05d42"
+    },
+    {
+      "path": "backend/tests/test_resume_diagnose.py",
+      "sha256": "86dbef1e7df1683c1dc7ea3596771162a80b5d866b3d947ed21ca67bce7a9b11"
+    },
+    {
+      "path": "backend/app/models/analysis_record.py",
+      "sha256": "e2174486bcb9289ecca8d59237355656e85846837124e945b656cb4e68d4d5c5"
+    },
+    {
+      "path": "backend/app/services/resume_parser.py",
+      "sha256": "43d997071681b2166c7aa79a3cd8dc325e47b357e221e6974ef8376f4d1ec1f2"
+    },
+    {
+      "path": "backend/app/services/resume_diagnose.py",
+      "sha256": "b86c21cd8a8f090ff06bd61835e4db08fed804cdfeea02662757bf36bbdeb39a"
+    },
+    {
+      "path": "backend/app/services/pdf_extractor.py",
+      "sha256": "20b53319654e2fa157e9fafe292af101ec6500c349bbf69ab9d9198142f4dbad"
+    },
+    {
+      "path": "backend/app/services/jd_parser.py",
+      "sha256": "846f82f26ef4accdcbd8e3652ca78ce31615611a4b5fa4cd8ed8f78d5d8d9503"
+    },
+    {
+      "path": "backend/app/services/skill_dict.py",
+      "sha256": "5805fe9bce99983b339c69f94578df46f35cff95f400dd73f67ba4f3039b134a"
+    },
+    {
+      "path": "backend/app/services/scoring.py",
+      "sha256": "097f457235aa080478b6fded294d9def2faa12c0cf87a4dff6337aebe27b95a6"
+    },
+    {
+      "path": "backend/app/services/star_suggestions.py",
+      "sha256": "fa390411b6c9b0e810c84b1821fbe1db3669fd1ef237790b807ef4d65651b905"
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "sha256": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd"
+    },
+    {
+      "path": "backend/tests/test_resume_parser.py",
+      "sha256": "51247653c33fcd054f662572cfcd919b211f88a98e35aca1d30c354479616ef2"
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "sha256": "027645953545e74a980ea3c8dbf8b9e36a2a5f24cc510ac1ccc1b6573ce14692"
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "sha256": "e93083b509246ab9ec1b00b306dcf8a36cf086bb699ee061c16dd26c24e35147"
+    },
+    {
+      "path": "backend/app/api/suggestions.py",
+      "sha256": "27df2111a16c3e116e741744f967cac2e114bdfbf67e987fc29b0c7a8046fcd8"
+    },
+    {
+      "path": "backend/app/api/resumes.py",
+      "sha256": "1f93709f3d6f8bd1639aee38c0d3c4773fd14da6f55a2709d313c9386edbec7a"
+    },
+    {
+      "path": "backend/app/api/records.py",
+      "sha256": "cf4a7c5c264fb7f7baa6a785ddeed747a0498c3b67b630e92f60875a1406ce1f"
+    },
+    {
+      "path": "backend/app/api/matches.py",
+      "sha256": "5006925a4e49aeedfd4df49ad3f566d3fac71c955a22acd1e73bacb2a6bb426c"
+    },
+    {
+      "path": "backend/app/api/jobs.py",
+      "sha256": "259422d9d3000f124579e6b5889db5c408369cb955b47eca7ff3cc3388621602"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "sha256": "12e85131b93ad92898a643ebe9bdd2177358d189da9c44044b99737273a39648"
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "frontend/src/types.ts",
+      "sha256": "82dd630cd39e1933936622ea0d7fd746b5ce69a8aaf4d6c9e1b1da237e7a30e3"
+    },
+    {
+      "path": "frontend/src/test-setup.ts",
+      "sha256": "3a2ad06d221892e3363b0d36be775e47ae6cfe2c991c42f69c6d6954fbe976eb"
+    },
+    {
+      "path": "frontend/src/style.css",
+      "sha256": "c01ce1fb28928c55803125ec305c161ccefbe02c6bc2ab2275686d743d7a0f16"
+    },
+    {
+      "path": "frontend/src/App.test.tsx",
+      "sha256": "0cac12fb32d179c0549239963520b556884201ed4dc04d7a3df52b2f35c6dd9d"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "sha256": "4ee3d1b6c7f54ead03b65492f6b655872603db1ec9c95e92fe683bcc21b56bd7"
+    },
+    {
+      "path": "frontend/src/components/StatePanel.tsx",
+      "sha256": "40a683c46fb6c84777b365318fe49dfd1a227c3f2286718a56cbdb778b01fad6"
+    },
+    {
+      "path": "frontend/src/components/SkillList.tsx",
+      "sha256": "718fcf3e38fab21d7ec98aa04623a7332646459c36149b42d7a7338640bd9e18"
+    },
+    {
+      "path": "frontend/src/components/BackendStatus.tsx",
+      "sha256": "b0d4acf691f397e6e00d89ae7eadb6c497d06cc06e4d706649c3df6c21084ab1"
+    },
+    {
+      "path": "frontend/src/services/api.ts",
+      "sha256": "ee99b4c98b4587c74e1fe7189f1b3dca8a85c1bc0e60f243f61d20a3a1a06bb7"
+    },
+    {
+      "path": "frontend/src/services/resumeSamples.ts",
+      "sha256": "832b2c193102ce649303ef9eb5633acd379f652e2083eaddb7dc743fce61f60f"
+    },
+    {
+      "path": "frontend/src/mocks/records.ts",
+      "sha256": "ebbb41afca6b4cd4c9ae2b6e4b673fd56f370d25a370d68c3b5a834f8c39009c"
+    },
+    {
+      "path": "frontend/src/services/matchPreview.ts",
+      "sha256": "0e2800b0b1452b605c02a944d24fc4cabe3591139ba52b0d88ab663dfc61ac49"
+    },
+    {
+      "path": "frontend/src/pages/HistoryPage.tsx",
+      "sha256": "863131ceb44f243d18da613373eb264fc721302878baa5a9ec67faec0d28485e"
+    },
+    {
+      "path": "frontend/src/pages/NewAnalysisPage.tsx",
+      "sha256": "217b0c4d4b7a7505a642ace9e229054dcaf87ac1ee393bdea162bab9ca97239c"
+    },
+    {
+      "path": "frontend/src/pages/ResumeEditorPage.tsx",
+      "sha256": "a981ba92f38f748028f05fea9888f0ae72f0a225ad482e00153c5c67cbe522e9"
+    },
+    {
+      "path": "frontend/src/pages/ResultPage.tsx",
+      "sha256": "2cb02d4a875ca3a9a028359d6a7ac21d43399c3530c5398bd8570fc1c9908f94"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6f3858ac94195764a3ec29f9de11a262d09640b4daa07056370432e7404e8971"
+    },
+    {
+      "path": "frontend/package.json",
+      "sha256": "d5cef1066fbd21bd7ba1de994a11b1ac95f312b9ca7501cc52fa7570ed2281d3"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "sha256": "5354e0c352fc30e2e2a29b3729a7966d8d1b3ecd1d3bbb172b54a710c7751a44"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "sha256": "793c77c36bf03d48eac36c253013763ad99e567d0e6db358250804e4c55003b3"
+    },
+    {
+      "path": "backend/requirements.txt",
+      "sha256": "e1e888a85857cdd4fc82e2a046cce306ab71e6d0f23f0fb958a5a1348196dc16"
+    },
+    {
+      "path": "backend/requirements.lock.txt",
+      "sha256": "95101d22ce2c6ff0bc3345882cdf5d5dbe72928485db7c627b2f437d550b41a5"
+    },
+    {
+      "path": "backend/requirements-dev.lock.txt",
+      "sha256": "123e06d602c4a4fe021999bddfdb73cb203e8c53f090d3dd66e5bf475ba8341f"
+    },
+    {
+      "path": "docs/mvp-rc1.md",
+      "sha256": "0385257a54616ec77ab8b20f91c128171afdec90f691db8130e6039fe372b68c"
+    }
+  ]
+}

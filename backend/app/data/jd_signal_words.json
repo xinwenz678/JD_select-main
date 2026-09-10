@@ -1,0 +1,17 @@
+{
+  "version": "signal-v1",
+  "description": "JD 技能分类信号词表。匹配在 normalize() 后的无空格文本上进行，词表条目均为单 token（含空格短语会在加载时归一化）。判定优先级：否定 > 加分 > 必需 > 默认按必需。",
+  "required": [
+    "要求", "必备", "必须", "熟悉", "精通", "掌握", "熟练", "具备",
+    "负责", "参与", "使用", "需要", "能够", "能", "深入", "扎实", "了解",
+    "required", "must", "proficient", "familiar", "experienced", "experience"
+  ],
+  "bonus": [
+    "优先", "加分", "更佳",
+    "preferred", "plus", "nice to have", "a plus"
+  ],
+  "negation": [
+    "不要求", "无需", "非必需", "不需要", "无要求", "无经验要求",
+    "not required", "not necessary", "no need"
+  ]
+}

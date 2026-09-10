@@ -1,0 +1,123 @@
+{
+  "status": "failed",
+  "scope": "B local-folder review, isolated real backend; not rc1 certification",
+  "browser": "152.0.4191.66",
+  "checks": [
+    {
+      "id": "UI01",
+      "title": "空历史可恢复",
+      "status": "passed"
+    },
+    {
+      "id": "UI-TC01",
+      "title": "完整匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "e20c170b-6e90-4378-a459-6bf9f4ab57e8",
+        "score": 91,
+        "matched": [
+          "Excel",
+          "FastAPI",
+          "Python"
+        ],
+        "missing": [],
+        "evidenceCount": 10
+      }
+    },
+    {
+      "id": "UI-TC02",
+      "title": "部分匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "ecac1725-663e-4f7f-8a06-9eaa6fa477a0",
+        "score": 50,
+        "matched": [
+          "Excel",
+          "Python"
+        ],
+        "missing": [
+          "FastAPI"
+        ],
+        "evidenceCount": 3
+      }
+    },
+    {
+      "id": "UI-TC03",
+      "title": "低匹配实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "ad127ed5-a5b0-4e5e-8577-b19cf065bdb2",
+        "score": 1,
+        "matched": [],
+        "missing": [
+          "FastAPI",
+          "Python"
+        ],
+        "evidenceCount": 3
+      }
+    },
+    {
+      "id": "UI-TC05",
+      "title": "同义词实际 API 结果与页面一致（算法另验）",
+      "status": "passed",
+      "detail": {
+        "uuid": "e7a6a708-4a72-4746-8e97-abcd6ecc0b41",
+        "score": 80,
+        "matched": [
+          "JavaScript",
+          "PyTorch"
+        ],
+        "missing": [],
+        "evidenceCount": 2
+      }
+    },
+    {
+      "id": "UI02",
+      "title": "空输入拦截与字段焦点",
+      "status": "passed"
+    },
+    {
+      "id": "UI03",
+      "title": "同步双击只产生一个 POST 和一条记录",
+      "status": "passed"
+    },
+    {
+      "id": "UI04",
+      "title": "平台统一 503 错误可读、草稿保留、真实重试成功",
+      "status": "passed"
+    },
+    {
+      "id": "UI05",
+      "title": "修改原文后旧解析结果失效",
+      "status": "passed"
+    },
+    {
+      "id": "UI06",
+      "title": "详情 404 不显示旧分数且能恢复",
+      "status": "passed"
+    },
+    {
+      "id": "UI07",
+      "title": "网络错误可读并解除在途锁",
+      "status": "passed"
+    },
+    {
+      "id": "UI08",
+      "title": "320/390/720/1440 窗口、长岗位名称可读",
+      "status": "passed"
+    },
+    {
+      "id": "A13",
+      "title": "删除已确认 Python 后匹配不再命中 Python",
+      "status": "failed",
+      "detail": "A13 unresolved: edited skills are still ignored by matching"
+    },
+    {
+      "id": "A15",
+      "title": "结果 URL 含服务端 UUID，刷新保留同一结果",
+      "status": "failed",
+      "detail": "stableUrl=false, sameResultAfterRefresh=false"
+    }
+  ],
+  "pageErrors": []
+}

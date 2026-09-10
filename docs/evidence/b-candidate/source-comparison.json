@@ -1,0 +1,468 @@
+{
+  "scope": "received A baseline compared with B repaired local candidate",
+  "generatedAt": "2026-09-10",
+  "files": [
+    {
+      "path": "scripts/check-env.ps1",
+      "before": "2a042e855cecd178ae469f87ba76c16825dcf1233c4b2a2528ef96597244cc21",
+      "after": "2a042e855cecd178ae469f87ba76c16825dcf1233c4b2a2528ef96597244cc21",
+      "changed": false
+    },
+    {
+      "path": "scripts/check-lock.py",
+      "before": "4242236c5e4f48b4b9f4d674fdc1d33833a8e44deb7779e85bd6bfaa96b996c5",
+      "after": "4242236c5e4f48b4b9f4d674fdc1d33833a8e44deb7779e85bd6bfaa96b996c5",
+      "changed": false
+    },
+    {
+      "path": "scripts/common.ps1",
+      "before": "781cfc88464192d0449a097d31da4961568df423d2893e2b30cba58f14a9317f",
+      "after": "781cfc88464192d0449a097d31da4961568df423d2893e2b30cba58f14a9317f",
+      "changed": false
+    },
+    {
+      "path": "scripts/b-review.py",
+      "before": "cf0d8134526e57d390980d5128a50b2f8c4a4d8634debd1876ea8d5149ab7fcd",
+      "after": "89e5b667e9f70bd3aa092ad303743eeded111cddfc267a996fac038ffa4968fe",
+      "changed": true
+    },
+    {
+      "path": "backend/app/__init__.py",
+      "before": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd",
+      "after": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd",
+      "changed": false
+    },
+    {
+      "path": "backend/app/main.py",
+      "before": "83c57f270b26665b35ade91003cb25e451544ff9bfc97b7dcbac9b19077af5bb",
+      "after": "964a3a145c06ada268780b04cc79a3cbb5b79d536b2ca39b3f5a4148269db11f",
+      "changed": true
+    },
+    {
+      "path": "scripts/verify.ps1",
+      "before": "15b86651111119fb36a23f00b09a8965100d102388aba8576f75defd7ea6e261",
+      "after": "15b86651111119fb36a23f00b09a8965100d102388aba8576f75defd7ea6e261",
+      "changed": false
+    },
+    {
+      "path": "scripts/verify-delivery.ps1",
+      "before": "b898b806b319146caf1a28f69dc97e7e8d662408fb385a3b9d898aa0063af254",
+      "after": "b898b806b319146caf1a28f69dc97e7e8d662408fb385a3b9d898aa0063af254",
+      "changed": false
+    },
+    {
+      "path": "scripts/start.ps1",
+      "before": "e91540afd6314c26017737591fb6bf2b6cf7861a0a066615e79b3c1f5bf2733c",
+      "after": "e91540afd6314c26017737591fb6bf2b6cf7861a0a066615e79b3c1f5bf2733c",
+      "changed": false
+    },
+    {
+      "path": "scripts/setup.ps1",
+      "before": "579648f144a5e8dd2a684c1e98aa840e89ee5703f5df02c5580d4186768887c7",
+      "after": "579648f144a5e8dd2a684c1e98aa840e89ee5703f5df02c5580d4186768887c7",
+      "changed": false
+    },
+    {
+      "path": "scripts/run-dev.py",
+      "before": "c336056d66d19f73e11a27954560671b597ebc9f557bd96ec1ec597fb24ae7c8",
+      "after": "c336056d66d19f73e11a27954560671b597ebc9f557bd96ec1ec597fb24ae7c8",
+      "changed": false
+    },
+    {
+      "path": "backend/app/data/synonyms.json",
+      "before": "8d86dde64a078d60b48f2f93447de54bb701b73c867bd5b73d188e8c12770a85",
+      "after": "8d86dde64a078d60b48f2f93447de54bb701b73c867bd5b73d188e8c12770a85",
+      "changed": false
+    },
+    {
+      "path": "backend/app/data/skill_dictionary.json",
+      "before": "fa7234608b3ddd50e71951efc2752885ad22d7f90900d4c989393977612d0752",
+      "after": "fa7234608b3ddd50e71951efc2752885ad22d7f90900d4c989393977612d0752",
+      "changed": false
+    },
+    {
+      "path": "backend/app/data/scoring_rules.json",
+      "before": "dd19e9bc1f3998010671083f8ff8e83ab9e4e6c0bf59c629b736276fc5393d99",
+      "after": "dd19e9bc1f3998010671083f8ff8e83ab9e4e6c0bf59c629b736276fc5393d99",
+      "changed": false
+    },
+    {
+      "path": "backend/app/data/jd_signal_words.json",
+      "before": "daef3b3d0444daac06fdbd3a89e5b3fc28349b03c90402b734cae12d2be3e5c1",
+      "after": "daef3b3d0444daac06fdbd3a89e5b3fc28349b03c90402b734cae12d2be3e5c1",
+      "changed": false
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "before": "8865bd709d7599eb4f349ca08f6f4b37938da54a46a58aeafc28f6a689d4f92f",
+      "after": "8865bd709d7599eb4f349ca08f6f4b37938da54a46a58aeafc28f6a689d4f92f",
+      "changed": false
+    },
+    {
+      "path": "backend/app/core/errors.py",
+      "before": "a624e542e84513b5deceb2eb2dd4a5ce7fd5f63dd8570ddc8fab41890005e045",
+      "after": "a624e542e84513b5deceb2eb2dd4a5ce7fd5f63dd8570ddc8fab41890005e045",
+      "changed": false
+    },
+    {
+      "path": "backend/app/core/database.py",
+      "before": "13a3d7e86361bfde8afddd26942cd3dcb529a1169a75a1c1c0ee9976bd019bd9",
+      "after": "13a3d7e86361bfde8afddd26942cd3dcb529a1169a75a1c1c0ee9976bd019bd9",
+      "changed": false
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "before": "a1ccc19ee5ad3bb859ba8045bce49f28462c5bcedcc44c5e54469986942f231a",
+      "after": "8305e09f093eca1e00db6f9242f21adbbe19c91c02bfed1e3b2acaf8bc146857",
+      "changed": true
+    },
+    {
+      "path": "backend/app/services/analysis_records.py",
+      "before": "6d6ad2091fb17782fc4265712593c232dd6aecb57203074792077a3f71fb4f8c",
+      "after": "6d6ad2091fb17782fc4265712593c232dd6aecb57203074792077a3f71fb4f8c",
+      "changed": false
+    },
+    {
+      "path": "backend/app/services/analysis_store.py",
+      "before": "b881fc3bc6190d68ec6b7aaa564d201a20901151238e90fa770e4c67c6efcb0d",
+      "after": "b881fc3bc6190d68ec6b7aaa564d201a20901151238e90fa770e4c67c6efcb0d",
+      "changed": false
+    },
+    {
+      "path": "backend/app/schemas/__init__.py",
+      "before": "fa2da211fed0423b70ee7b3237a63dfc0f693900edf91f6e188f1f7cb28c140e",
+      "after": "fa2da211fed0423b70ee7b3237a63dfc0f693900edf91f6e188f1f7cb28c140e",
+      "changed": false
+    },
+    {
+      "path": "backend/app/schemas/suggestion.py",
+      "before": "ebe420f31271d788402ba4ffb6b103b8c20734c9e806c0a741cb52d215567b5a",
+      "after": "ebe420f31271d788402ba4ffb6b103b8c20734c9e806c0a741cb52d215567b5a",
+      "changed": false
+    },
+    {
+      "path": "backend/app/schemas/resume.py",
+      "before": "aded2b6e40257650609d1296dd00d8d73ba0a6bbf5d3f1d74aaa9b0ddfa831a3",
+      "after": "aded2b6e40257650609d1296dd00d8d73ba0a6bbf5d3f1d74aaa9b0ddfa831a3",
+      "changed": false
+    },
+    {
+      "path": "backend/app/schemas/match.py",
+      "before": "20443b59289f5564d61879ee59a35fd79a2f9bf695a1362dd5a7c57830fa768a",
+      "after": "eb4c3a579e9b5c086c0424e3916e90bca0dcfd43044a81dd28c52cfb20ea3ce3",
+      "changed": true
+    },
+    {
+      "path": "backend/app/schemas/job.py",
+      "before": "8095a4072f9e11d1aae4e56fab9e402488a9ea44f7e3bb47e852fb27f93eb812",
+      "after": "8095a4072f9e11d1aae4e56fab9e402488a9ea44f7e3bb47e852fb27f93eb812",
+      "changed": false
+    },
+    {
+      "path": "backend/app/schemas/analysis_record.py",
+      "before": "a767ba78fc1d2e8f0bece4f9f48b26bbf265c8f7837d21feaa6158832b66581a",
+      "after": "5b2ed255896fdb700513c3eb23f181b0e5c31249015fbdc4b0551370c44794ea",
+      "changed": true
+    },
+    {
+      "path": "backend/tests/test_match_evidence.py",
+      "before": "302c58f4ef89083a1c1fc1de7b843a05c3db78a3db5df6d14bdad8a88eaefcb4",
+      "after": "302c58f4ef89083a1c1fc1de7b843a05c3db78a3db5df6d14bdad8a88eaefcb4",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_b_acceptance.py",
+      "before": "9ade09d9e38338e6e8b766881b4e1747235e10fcc1aafe829df8c5e91f8b3654",
+      "after": "9ade09d9e38338e6e8b766881b4e1747235e10fcc1aafe829df8c5e91f8b3654",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_a13_a17.py",
+      "before": "9e48689c9b2e3c0884061958ff8310ee70702f881e4d0d389018e42474bd52e0",
+      "after": "9e48689c9b2e3c0884061958ff8310ee70702f881e4d0d389018e42474bd52e0",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "before": "d83ac996b8b6939118fdfb0a074d4ae8cef15afe6a6f52197d5a2bed448effb2",
+      "after": "d83ac996b8b6939118fdfb0a074d4ae8cef15afe6a6f52197d5a2bed448effb2",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_resume_api.py",
+      "before": "b9e379b8947254fd2250b34955ed7bf276a5598f9127105dcb81d9b1b2ed9238",
+      "after": "b9e379b8947254fd2250b34955ed7bf276a5598f9127105dcb81d9b1b2ed9238",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_platform_records.py",
+      "before": "f7ce70b4cd4e9c685a5165a881b29bf6b3e2e617a8f42bfbee93585688d05d42",
+      "after": "f7ce70b4cd4e9c685a5165a881b29bf6b3e2e617a8f42bfbee93585688d05d42",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_resume_diagnose.py",
+      "before": "86dbef1e7df1683c1dc7ea3596771162a80b5d866b3d947ed21ca67bce7a9b11",
+      "after": "86dbef1e7df1683c1dc7ea3596771162a80b5d866b3d947ed21ca67bce7a9b11",
+      "changed": false
+    },
+    {
+      "path": "backend/app/models/analysis_record.py",
+      "before": "e2174486bcb9289ecca8d59237355656e85846837124e945b656cb4e68d4d5c5",
+      "after": "e2174486bcb9289ecca8d59237355656e85846837124e945b656cb4e68d4d5c5",
+      "changed": false
+    },
+    {
+      "path": "backend/app/services/resume_parser.py",
+      "before": "43d997071681b2166c7aa79a3cd8dc325e47b357e221e6974ef8376f4d1ec1f2",
+      "after": "43d997071681b2166c7aa79a3cd8dc325e47b357e221e6974ef8376f4d1ec1f2",
+      "changed": false
+    },
+    {
+      "path": "backend/app/services/resume_diagnose.py",
+      "before": "b86c21cd8a8f090ff06bd61835e4db08fed804cdfeea02662757bf36bbdeb39a",
+      "after": "b86c21cd8a8f090ff06bd61835e4db08fed804cdfeea02662757bf36bbdeb39a",
+      "changed": false
+    },
+    {
+      "path": "backend/app/services/pdf_extractor.py",
+      "before": "20b53319654e2fa157e9fafe292af101ec6500c349bbf69ab9d9198142f4dbad",
+      "after": "20b53319654e2fa157e9fafe292af101ec6500c349bbf69ab9d9198142f4dbad",
+      "changed": false
+    },
+    {
+      "path": "backend/app/services/jd_parser.py",
+      "before": "846f82f26ef4accdcbd8e3652ca78ce31615611a4b5fa4cd8ed8f78d5d8d9503",
+      "after": "ed5d1f61e1dd75a27a2e6baa4a3eb167e3146087db6b95e6823633f40bcd5a60",
+      "changed": true
+    },
+    {
+      "path": "backend/app/services/skill_dict.py",
+      "before": "5805fe9bce99983b339c69f94578df46f35cff95f400dd73f67ba4f3039b134a",
+      "after": "115e6ec93fab2f5c30f959e52f7657b6492e8adf16ca06cf36b92afd1a6fe9ef",
+      "changed": true
+    },
+    {
+      "path": "backend/app/services/scoring.py",
+      "before": "097f457235aa080478b6fded294d9def2faa12c0cf87a4dff6337aebe27b95a6",
+      "after": "d71156e776e28e543f4f2e750a7cc4baf6e9f4d67879f436584b7037638d6b54",
+      "changed": true
+    },
+    {
+      "path": "backend/app/services/star_suggestions.py",
+      "before": "fa390411b6c9b0e810c84b1821fbe1db3669fd1ef237790b807ef4d65651b905",
+      "after": "b405305bdd2f066c0e93f018d56c27f59cdfb9e712ab5c467e7ab97d9f8a59ab",
+      "changed": true
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "before": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd",
+      "after": "1715c6562c00073b0ed12f9203fe8a02d9fd8d3e043bf0bd32f9bf1226af7bfd",
+      "changed": false
+    },
+    {
+      "path": "backend/tests/test_resume_parser.py",
+      "before": "51247653c33fcd054f662572cfcd919b211f88a98e35aca1d30c354479616ef2",
+      "after": "51247653c33fcd054f662572cfcd919b211f88a98e35aca1d30c354479616ef2",
+      "changed": false
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "before": "027645953545e74a980ea3c8dbf8b9e36a2a5f24cc510ac1ccc1b6573ce14692",
+      "after": "027645953545e74a980ea3c8dbf8b9e36a2a5f24cc510ac1ccc1b6573ce14692",
+      "changed": false
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "before": "e93083b509246ab9ec1b00b306dcf8a36cf086bb699ee061c16dd26c24e35147",
+      "after": "e93083b509246ab9ec1b00b306dcf8a36cf086bb699ee061c16dd26c24e35147",
+      "changed": false
+    },
+    {
+      "path": "backend/app/api/suggestions.py",
+      "before": "27df2111a16c3e116e741744f967cac2e114bdfbf67e987fc29b0c7a8046fcd8",
+      "after": "5d2c8565098812ded9430e4b60c44c69ac33c3585324fa2e8f70597f804d9b28",
+      "changed": true
+    },
+    {
+      "path": "backend/app/api/resumes.py",
+      "before": "1f93709f3d6f8bd1639aee38c0d3c4773fd14da6f55a2709d313c9386edbec7a",
+      "after": "1f93709f3d6f8bd1639aee38c0d3c4773fd14da6f55a2709d313c9386edbec7a",
+      "changed": false
+    },
+    {
+      "path": "backend/app/api/records.py",
+      "before": "cf4a7c5c264fb7f7baa6a785ddeed747a0498c3b67b630e92f60875a1406ce1f",
+      "after": "cf4a7c5c264fb7f7baa6a785ddeed747a0498c3b67b630e92f60875a1406ce1f",
+      "changed": false
+    },
+    {
+      "path": "backend/app/api/matches.py",
+      "before": "5006925a4e49aeedfd4df49ad3f566d3fac71c955a22acd1e73bacb2a6bb426c",
+      "after": "4158c1973944fe22507956b0e834b9bcb970fe771d15a74e7c34c0acef08271d",
+      "changed": true
+    },
+    {
+      "path": "backend/app/api/jobs.py",
+      "before": "259422d9d3000f124579e6b5889db5c408369cb955b47eca7ff3cc3388621602",
+      "after": "259422d9d3000f124579e6b5889db5c408369cb955b47eca7ff3cc3388621602",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "before": "12e85131b93ad92898a643ebe9bdd2177358d189da9c44044b99737273a39648",
+      "after": "12e85131b93ad92898a643ebe9bdd2177358d189da9c44044b99737273a39648",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "before": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "after": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/types.ts",
+      "before": "82dd630cd39e1933936622ea0d7fd746b5ce69a8aaf4d6c9e1b1da237e7a30e3",
+      "after": "c9f828d8c2314c9168910f12691b2a5c6947b3ef512e755932bccaf5cc2c63e0",
+      "changed": true
+    },
+    {
+      "path": "frontend/src/test-setup.ts",
+      "before": "3a2ad06d221892e3363b0d36be775e47ae6cfe2c991c42f69c6d6954fbe976eb",
+      "after": "3a2ad06d221892e3363b0d36be775e47ae6cfe2c991c42f69c6d6954fbe976eb",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/style.css",
+      "before": "c01ce1fb28928c55803125ec305c161ccefbe02c6bc2ab2275686d743d7a0f16",
+      "after": "779eebdb8b29b4ebdfd3c06dead80e56ca2e02e6b8be8c1610e2c3f558d189b4",
+      "changed": true
+    },
+    {
+      "path": "frontend/src/App.test.tsx",
+      "before": "0cac12fb32d179c0549239963520b556884201ed4dc04d7a3df52b2f35c6dd9d",
+      "after": "0cac12fb32d179c0549239963520b556884201ed4dc04d7a3df52b2f35c6dd9d",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "before": "4ee3d1b6c7f54ead03b65492f6b655872603db1ec9c95e92fe683bcc21b56bd7",
+      "after": "9f7e3879531b2201d86b2383a116a4bfe8e399c728a94aed3ffe53ee44d01dbd",
+      "changed": true
+    },
+    {
+      "path": "frontend/src/components/StatePanel.tsx",
+      "before": "40a683c46fb6c84777b365318fe49dfd1a227c3f2286718a56cbdb778b01fad6",
+      "after": "40a683c46fb6c84777b365318fe49dfd1a227c3f2286718a56cbdb778b01fad6",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/components/SkillList.tsx",
+      "before": "718fcf3e38fab21d7ec98aa04623a7332646459c36149b42d7a7338640bd9e18",
+      "after": "718fcf3e38fab21d7ec98aa04623a7332646459c36149b42d7a7338640bd9e18",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/components/BackendStatus.tsx",
+      "before": "b0d4acf691f397e6e00d89ae7eadb6c497d06cc06e4d706649c3df6c21084ab1",
+      "after": null,
+      "changed": true
+    },
+    {
+      "path": "frontend/src/services/api.ts",
+      "before": "ee99b4c98b4587c74e1fe7189f1b3dca8a85c1bc0e60f243f61d20a3a1a06bb7",
+      "after": "85ec9f3263be12304bfe827b8115d6d8a6c3afc55401205138508c2c1429e0e5",
+      "changed": true
+    },
+    {
+      "path": "frontend/src/services/resumeSamples.ts",
+      "before": "832b2c193102ce649303ef9eb5633acd379f652e2083eaddb7dc743fce61f60f",
+      "after": "832b2c193102ce649303ef9eb5633acd379f652e2083eaddb7dc743fce61f60f",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/mocks/records.ts",
+      "before": "ebbb41afca6b4cd4c9ae2b6e4b673fd56f370d25a370d68c3b5a834f8c39009c",
+      "after": null,
+      "changed": true
+    },
+    {
+      "path": "frontend/src/services/matchPreview.ts",
+      "before": "0e2800b0b1452b605c02a944d24fc4cabe3591139ba52b0d88ab663dfc61ac49",
+      "after": null,
+      "changed": true
+    },
+    {
+      "path": "frontend/src/pages/HistoryPage.tsx",
+      "before": "863131ceb44f243d18da613373eb264fc721302878baa5a9ec67faec0d28485e",
+      "after": "863131ceb44f243d18da613373eb264fc721302878baa5a9ec67faec0d28485e",
+      "changed": false
+    },
+    {
+      "path": "frontend/src/pages/NewAnalysisPage.tsx",
+      "before": "217b0c4d4b7a7505a642ace9e229054dcaf87ac1ee393bdea162bab9ca97239c",
+      "after": null,
+      "changed": true
+    },
+    {
+      "path": "frontend/src/pages/ResumeEditorPage.tsx",
+      "before": "a981ba92f38f748028f05fea9888f0ae72f0a225ad482e00153c5c67cbe522e9",
+      "after": "aa654db987d25ef20ed7175e19372f1402ded5ca69c8215a26dd59e65d0de891",
+      "changed": true
+    },
+    {
+      "path": "frontend/src/pages/ResultPage.tsx",
+      "before": "2cb02d4a875ca3a9a028359d6a7ac21d43399c3530c5398bd8570fc1c9908f94",
+      "after": "5ed7f71e8d0ed3858ca8a55f1e5dc5a04bf025fef1974efffe0964c411b8bb35",
+      "changed": true
+    },
+    {
+      "path": "README.md",
+      "before": "6f3858ac94195764a3ec29f9de11a262d09640b4daa07056370432e7404e8971",
+      "after": "d36782cac65c53de3199bddd8587b2ff75c671019c7bd94a0da3b76057779a32",
+      "changed": true
+    },
+    {
+      "path": "frontend/package.json",
+      "before": "d5cef1066fbd21bd7ba1de994a11b1ac95f312b9ca7501cc52fa7570ed2281d3",
+      "after": "a077c578df26b0463aa38846a51ccee1c6c9d3acb9348d110c7f194159383388",
+      "changed": true
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "before": "5354e0c352fc30e2e2a29b3729a7966d8d1b3ecd1d3bbb172b54a710c7751a44",
+      "after": "5933b85be070a5617ebb260cbbeb819f57fef9141b6f731c6648a54ba1b63545",
+      "changed": true
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "before": "793c77c36bf03d48eac36c253013763ad99e567d0e6db358250804e4c55003b3",
+      "after": "793c77c36bf03d48eac36c253013763ad99e567d0e6db358250804e4c55003b3",
+      "changed": false
+    },
+    {
+      "path": "backend/requirements.txt",
+      "before": "e1e888a85857cdd4fc82e2a046cce306ab71e6d0f23f0fb958a5a1348196dc16",
+      "after": "e1e888a85857cdd4fc82e2a046cce306ab71e6d0f23f0fb958a5a1348196dc16",
+      "changed": false
+    },
+    {
+      "path": "backend/requirements.lock.txt",
+      "before": "95101d22ce2c6ff0bc3345882cdf5d5dbe72928485db7c627b2f437d550b41a5",
+      "after": "95101d22ce2c6ff0bc3345882cdf5d5dbe72928485db7c627b2f437d550b41a5",
+      "changed": false
+    },
+    {
+      "path": "backend/requirements-dev.lock.txt",
+      "before": "123e06d602c4a4fe021999bddfdb73cb203e8c53f090d3dd66e5bf475ba8341f",
+      "after": "123e06d602c4a4fe021999bddfdb73cb203e8c53f090d3dd66e5bf475ba8341f",
+      "changed": false
+    },
+    {
+      "path": "docs/mvp-rc1.md",
+      "before": "0385257a54616ec77ab8b20f91c128171afdec90f691db8130e6039fe372b68c",
+      "after": "f301a59f96a7b85dcfdd0dcd734fba6c88a1492011983c78a8707d6a50fed8bf",
+      "changed": true
+    }
+  ]
+}

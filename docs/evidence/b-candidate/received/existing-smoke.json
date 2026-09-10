@@ -1,0 +1,83 @@
+{
+  "status": "passed",
+  "scope": "integrated MVP real browser flow",
+  "browser": "152.0.4191.66",
+  "recordId": "6f3f2505-6a07-4196-bf08-576ec99fab58",
+  "score": 73,
+  "evidenceCount": 12,
+  "checks": [
+    "Resume: real parse and diagnose APIs, editable result, confirmation and JD transition",
+    "Match failure: readable server error and retained JD input",
+    "Result: real score, saved id, matched/missing skills and line-addressable resume/JD evidence",
+    "History: newly saved record appears in recent list and detail preserves evidence",
+    "Responsive: evidence result has no horizontal overflow at 390px and 320px"
+  ],
+  "pageErrors": [],
+  "apiRequests": [
+    {
+      "method": "POST",
+      "path": "/api/resumes/parse"
+    },
+    {
+      "method": "POST",
+      "path": "/api/resumes/diagnose"
+    },
+    {
+      "method": "POST",
+      "path": "/api/matches"
+    },
+    {
+      "method": "POST",
+      "path": "/api/matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches/6f3f2505-6a07-4196-bf08-576ec99fab58"
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches"
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches/6f3f2505-6a07-4196-bf08-576ec99fab58"
+    }
+  ],
+  "apiResponses": [
+    {
+      "method": "POST",
+      "path": "/api/resumes/parse",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/resumes/diagnose",
+      "status": 200
+    },
+    {
+      "method": "POST",
+      "path": "/api/matches",
+      "status": 503
+    },
+    {
+      "method": "POST",
+      "path": "/api/matches",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches/6f3f2505-6a07-4196-bf08-576ec99fab58",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches",
+      "status": 200
+    },
+    {
+      "method": "GET",
+      "path": "/api/matches/6f3f2505-6a07-4196-bf08-576ec99fab58",
+      "status": 200
+    }
+  ]
+}

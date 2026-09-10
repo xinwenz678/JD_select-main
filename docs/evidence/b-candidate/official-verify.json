@@ -1,0 +1,11 @@
+{
+  "exitCode": 0,
+  "runAt": "2026-09-10T17:50:59+08:00",
+  "scope": "official verify on repaired local candidate",
+  "checks": {
+    "backendTests": "91 passed",
+    "componentTests": "12 passed",
+    "build": "passed",
+    "startupSmoke": "passed"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "passed": 1,
+  "failed": 4,
+  "tests": [
+    {
+      "name": "B independent route and recovery regression checks actually refetches history when retry is clicked",
+      "status": "failed",
+      "reason": "Error: Unable to find role=\"button\" and name \"重试\""
+    },
+    {
+      "name": "B independent route and recovery regression checks actually refetches detail after a recoverable error",
+      "status": "failed",
+      "reason": "Error: Unable to find a label with the text of: 匹配分 0"
+    },
+    {
+      "name": "B independent route and recovery regression checks ignores an older detail response after navigating to another UUID",
+      "status": "failed",
+      "reason": "Error: expect(element).not.toBeInTheDocument()"
+    },
+    {
+      "name": "B independent route and recovery regression checks renders malformed percent encoding as not-found without crashing",
+      "status": "failed",
+      "reason": "URIError: URI malformed"
+    },
+    {
+      "name": "B independent route and recovery regression checks distinguishes a missing score from zero",
+      "status": "passed",
+      "reason": ""
+    }
+  ]
+}

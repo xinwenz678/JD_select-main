@@ -1,0 +1,54 @@
+{
+  "passed": 12,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "aborts a stalled request after 30 seconds and explains uncertain saving",
+      "status": "passed"
+    },
+    {
+      "name": "turns network failures into a readable recoverable message",
+      "status": "passed"
+    },
+    {
+      "name": "preserves platform errors and confirmed skills in the request",
+      "status": "passed"
+    },
+    {
+      "name": "App routing and states renders empty history",
+      "status": "passed"
+    },
+    {
+      "name": "App routing and states renders zero score and confirmed evidence",
+      "status": "passed"
+    },
+    {
+      "name": "App routing and states shows invalid UUID as recoverable not-found",
+      "status": "passed"
+    },
+    {
+      "name": "App routing and states synchronously locks duplicate match submissions",
+      "status": "passed"
+    },
+    {
+      "name": "B independent route and recovery regression checks actually refetches history when retry is clicked",
+      "status": "passed"
+    },
+    {
+      "name": "B independent route and recovery regression checks actually refetches detail after a recoverable error",
+      "status": "passed"
+    },
+    {
+      "name": "B independent route and recovery regression checks ignores an older detail response after navigating to another UUID",
+      "status": "passed"
+    },
+    {
+      "name": "B independent route and recovery regression checks renders malformed percent encoding as not-found without crashing",
+      "status": "passed"
+    },
+    {
+      "name": "B independent route and recovery regression checks distinguishes a missing score from zero",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+Jane Doe
+Email: jane.doe@example.com
+Phone: +8613912345678
+
+EDUCATION
+2019-2023  Bachelor of Engineering, Software Engineering, ABC University
+
+INTERNSHIP EXPERIENCE
+2022.06-2022.09  ABC Tech  Backend Intern
+Built REST APIs with Python and FastAPI
+Fixed 23 production bugs; response latency reduced by 40%
+
+PROJECTS
+Resume Matcher (course project)
+Full-stack web app with React and FastAPI
+
+TECHNICAL SKILLS
+Languages: Python, Java, C++
+Frameworks: FastAPI, Spring Boot
+Tools: Git, Docker, MySQL
